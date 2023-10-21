@@ -6,7 +6,7 @@
 
 :root {
   --black-gradient: #1a1a1a;
-  --card-shadow: 0px 20px 100px -10px rgba(66, 91, 69, 0.1);
+  --card-shadow: 0px 20px 100px -10px rgba(102, 51, 238, 1);
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 .text-gradient {
-  background: #00ea5e;
+  background: #6633ee;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -22,7 +22,7 @@
 }
 
 .bg-blue-gradient {
-  background: #00ea5e;
+  background: #6633ee;
 }
 
 .bg-black-gradient {
@@ -38,11 +38,11 @@
 }
 
 .bg-discount-gradient {
-  background: #173523;
+  background: #6633ee;
 }
 
 .box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 91, 71, 0.1);
+  box-shadow: 0px 20px 100px -10px rgba(79, 66, 91, 0.1);
 }
 
 .sidebar {
@@ -90,11 +90,11 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(19, 172, 32, 0) 0%, #00ea5e 100%);
+  background: linear-gradient(180deg, rgba(19, 172, 32, 0) 0%, #6633ee 100%);
   filter: blur(123px);
 }
 
 .white__gradient {
-  background: rgba(31, 172, 52, 0.6);
+  background: rgba(102, 51, 238, 1);
   filter: blur(750px);
 }
