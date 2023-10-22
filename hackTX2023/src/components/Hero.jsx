@@ -37,9 +37,15 @@ const Hero = () => {
               <span className="block h-full animate-spin_words">
                 Generation
               </span>
-              <span className="block h-full animate-spin_words">Wave</span>
-              <span className="block h-full animate-spin_words">Evolution</span>
-              <span className="block h-full animate-spin_words">Phase</span>
+              <span className="block h-full animate-spin_words">
+                Generation
+              </span>
+              <span className="block h-full animate-spin_words">
+                Generation
+              </span>
+              <span className="block h-full animate-spin_words">
+                Generation
+              </span>
               <span className="block h-full animate-spin_words">
                 Generation
               </span>
@@ -51,9 +57,8 @@ const Hero = () => {
           of Mentalcare.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Revolutionize how you monitor emotions, understand patterns, and
-          promote self-awareness, all while ensuring utmost privacy and
-          security.
+          Revolutionize how you transfer assets, validate transactions, and
+          maintain records, all while ensuring utmost privacy and security.
         </p>
       </div>
 

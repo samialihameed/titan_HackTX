@@ -6,13 +6,12 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a smarter solution <br className="sm:block hidden" /> at your
-        fingertips.
+        Find a smarter blockchain <br className="sm:block hidden" /> solution on
+        your fingertips.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Engage in surveys tailored to reflect your emotional landscape and
-        provide insights. With a tap, unlock a world where understanding your
-        mind becomes as natural as breathing.
+        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
+        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
       </p>
 
       <Button styles={`mt-10`} />
