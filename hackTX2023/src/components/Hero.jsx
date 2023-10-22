@@ -1,3 +1,4 @@
+import React, { useEffect, useRef } from "react";
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
@@ -5,6 +6,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./Hero.css";
 
 const Hero = () => {
+  const imageRef = useRef(null);
+
+  useEffect(() => {
+    if (imageRef.current) {
+      imageRef.current.classList.add("fade-in");
+    }
+  }, []);
+
   return (
     <section
       id="home"
@@ -57,6 +66,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
+          ref={imageRef}
           src={robot}
           alt="billing"
           className="w-[90%] h-[90%] relative z-[5] mr-20"
