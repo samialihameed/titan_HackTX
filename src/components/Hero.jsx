@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import GetStarted2 from "./GetStarted2";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./Hero.css";
 

@@ -1,5 +1,5 @@
 import styles from "../style";
-import Button from "./Button";
+import Button2 from "./Button2";
 
 const CTA = () => (
   <section
@@ -14,7 +14,7 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+      <Button2 />
     </div>
   </section>
 );
