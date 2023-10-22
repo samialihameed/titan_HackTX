@@ -52,7 +52,8 @@ const Hero = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Revolutionize how you monitor emotions, understand patterns, and
-          promote self-awareness, all while ensuring utmost privacy and security
+          promote self-awareness, all while ensuring utmost privacy and
+          security.
         </p>
       </div>
 
