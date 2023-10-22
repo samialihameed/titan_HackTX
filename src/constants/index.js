@@ -40,21 +40,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "Unlock exclusive benefits and incentives with our state-of-the-art blockchain platform.",
+      "Unlock exclusive benefits and insights with our state-of-the-art mental health platform.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "Proactive measures ensure your data and transactions are encrypted and secure.",
+      "Proactive measures ensure your data and responses are encrypted and secure.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Balance Transfer",
     content:
-      "Optimize costs and enhance efficiency with seamless smart contract integrations",
+      "Optimize self-awareness and enhance wellness with seamless daily survey integrations.",
   },
 ];
 
@@ -62,15 +62,15 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "With their intuitive platform and secure infrastructure, I can engage in transactions without a second thought. Truly a game-changer!",
+      "With their intuitive platform, I can engage in self-reflection effortlessly. Truly a game changer!",
     name: "Sami Ali",
-    title: "Founder & Developer",
+    title: "Mindfulness Enthusiast",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "As a startup founder, security and scalability are my top concerns. Titan delivers on both fronts, offering an unparalleled blockchain solution that grows with my business.",
+      "This app delivers on both fronts, offering an unparalleled mental health solution that grows with my self awareness journey.",
     name: "Ethan Debnath",
     title: "Founder & Developer",
     img: people02,
@@ -78,9 +78,9 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "I've been in the finance industry for years, and Titan is by far the most robust and reliable blockchain platform I've encountered.",
+      "This app meets my needs for understanding and self improvement, growing with my self-awareness journey.",
     name: "Don Dang",
-    title: "Founder & Developer",
+    title: "College Student",
     img: people03,
   },
 ];
@@ -98,8 +98,8 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Lives Affected",
+    value: "$100M+",
   },
 ];
 

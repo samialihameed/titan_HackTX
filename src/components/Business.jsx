@@ -30,13 +30,13 @@ const Business = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You focus on innovation, <br className="sm:block hidden" /> we'll secure
+        You focus on healing, <br className="sm:block hidden" /> we'll secure
         the rest.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right blockchain solution, you can enhance security, improve
-        transparency, and drive efficiency. Navigate the digital frontier
-        effortlessly with our platform.
+        Navigate the wellness journey effortlessly with our platform, powered by
+        fine-tuned chatbot technology and Language Model Learning (LLM) for
+        engaging and supportive mental health conversations.
       </p>
 
       <Button styles={`mt-10`} />

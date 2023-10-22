@@ -20,12 +20,12 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Effortlessly manage your <br className="sm:block hidden" /> transactions
-        & records.
+        Effortlessly manage your <br className="sm:block hidden" /> emotions &
+        progress
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+        Our platform fosters a nurturing environment to explore, understand, and
+        uplift your mental state, promoting a balanced and fulfilling life.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
