@@ -1,5 +1,7 @@
+import React from "react";
 import { apple, bill, google } from "../assets";
 import styles, { layout } from "../style";
+import "./Billing.css";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
@@ -7,7 +9,7 @@ const Billing = () => (
       <img
         src={bill}
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[100%] h-[100%] relative z-[5]"
       />
 
       {/* gradient start */}
@@ -35,7 +37,7 @@ const Billing = () => (
         <img
           src={google}
           alt="google_play"
-          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
+          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer "
         />
       </div>
     </div>
