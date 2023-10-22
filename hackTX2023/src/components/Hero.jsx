@@ -1,9 +1,11 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const Hero = () => {
   return (
+    
     <section
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
@@ -27,7 +29,7 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          of Blockchain.
+          of Mental Healthcare.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Revolutionize how you transfer assets, validate transactions, and
